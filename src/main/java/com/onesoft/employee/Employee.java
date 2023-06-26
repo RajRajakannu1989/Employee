@@ -14,7 +14,7 @@ public class Employee {
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
 	private int id;
 	private String name;
-	@Transient
+	//@Transient
 	private int age;
 	private String gender;
 	private int salary;
